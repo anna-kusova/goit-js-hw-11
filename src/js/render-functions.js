@@ -21,13 +21,13 @@ export function createGallery(images) {
         downloads,
       }) => ` <li class="gallery-item">
             <a href='${largeImageURL}'>
-                <img src="${webformatURL}" alt="${tags}" >
+                <img clsss="gallery-img" src="${webformatURL}" alt="${tags}" >
             </a>
             <div class="info">
-          <p>Likes: ${likes}</p>
-          <p>Views: ${views}</p>
-          <p>Comments: ${comments}</p>
-          <p>Downloads: ${downloads}</p>
+          <p class="info-container">Likes ${likes}</p>
+          <p>Views ${views}</p>
+          <p>Comments ${comments}</p>
+          <p>Downloads ${downloads}</p>
         </div>
     </li> `
     )

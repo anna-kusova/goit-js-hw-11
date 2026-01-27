@@ -33,7 +33,7 @@ form.addEventListener('submit', async event => {
     createGallery(data.hits);
   } catch (error) {
     iziToast.error({
-      message: 'Something went wrong. Please try again later!',
+      message: 'Sorry, there are no images matching your search query. Please try again!',
     });
   } finally {
     hideLoader();
