@@ -23,15 +23,20 @@
   transition: border-color 250ms;
 }
 
-.form-input:hover,
-.form-input:focus {
+.form-input:hover
+ {
   border-color: #000;
 }
 
-.form-input:active {
+.form-input:focus {
   border-color: #4e75ff;
   outline: none;
 }
+
+/* .form-input:active {
+  border-color: #4e75ff;
+  outline: none;
+} */
 
 .form-btn {
   display: flex;
